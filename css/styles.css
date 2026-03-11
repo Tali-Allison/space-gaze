@@ -1,0 +1,99 @@
+.logo {
+  max-width: 200px;
+  padding: 2px;
+}
+
+nav {
+  background-image: url("https://img.freepik.com/premium-vector/space-art-banner-with-galaxy-abstract-space-background-web-print-social-media-design_391155-329.jpg");
+}
+nav ul {
+  list-style-type: none;
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  padding: 8px;
+  background: ;
+  border-radius: 30px;
+  font-weight: 700;
+  color: #ffffff;
+}
+nav a:hover {
+  color: #744b24;
+  background-color: #c8a987;
+  border-radius: 20px;
+}
+main {
+  padding: 1rem;
+  width: 600px;
+  margin: 0 auto;
+}
+
+/* basic formatting */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background-image: url("https://images.vexels.com/media/users/3/149334/raw/e78e85c351fd5ed3a3c9c8a120a981ad-planets-space-background.jpg");
+}
+img {
+  max-width: 100%;
+}
+
+.parent {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 550px) {
+  .parent {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .feature {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 850px) {
+  .parent {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .feature {
+    grid-column: span 3;
+  }
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 0.5rem;
+}
+.button {
+  background-color: #2d697c;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.button:hover {
+  background-color: #327c94;
+}
