@@ -6,6 +6,7 @@
 nav {
   background-image: url("https://img.freepik.com/premium-vector/space-art-banner-with-galaxy-abstract-space-background-web-print-social-media-design_391155-329.jpg");
 }
+
 nav ul {
   list-style-type: none;
   padding: 1rem;
@@ -14,19 +15,23 @@ nav ul {
   gap: 1rem;
   flex-wrap: wrap;
 }
+
 nav a {
   display: block;
   text-decoration: none;
   padding: 8px;
+  background: ;
   border-radius: 30px;
   font-weight: 700;
   color: #ffffff;
 }
+
 nav a:hover {
   color: #744b24;
   background-color: #c8a987;
   border-radius: 20px;
 }
+
 main {
   padding: 1rem;
   width: 600px;
@@ -37,11 +42,13 @@ main {
 html {
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
+
 body {
   font-family: "Libre Franklin", sans-serif;
   font-size: 1.1rem;
@@ -51,6 +58,7 @@ body {
   color: #ffffff;
   background-image: url("https://images.vexels.com/media/users/3/149334/raw/e78e85c351fd5ed3a3c9c8a120a981ad-planets-space-background.jpg");
 }
+
 img {
   max-width: 100%;
 }
@@ -85,6 +93,7 @@ img {
   border-radius: 5px;
   padding: 0 0.5rem;
 }
+
 .button {
   background-color: #2d697c;
   padding: 0.5rem;
@@ -93,6 +102,25 @@ img {
   text-decoration: none;
   font-size: 0.8rem;
 }
+
 .button:hover {
   background-color: #327c94;
+}
+
+footer {
+  background-color: #2D697C;
+  margin: 5rem 0;
+  padding: 1.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+footer a {
+  color: #000000;
+  text-decoration: black wavy underline;
+}
+
+footer a:hover {
+  text-decoration: none;
 }
